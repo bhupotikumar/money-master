@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-xl mx-auto">
+    <header>
+        <h1 class="mb-8 text-pink-600 font-extrabold text-4xl p-2 text-center">Money Master!</h1>
+    </header>
+    <main>
+        <!-- Money Master Section -->
+        <section class="grid grid-cols-2 gap-8">
+            <!-- Money Master Image -->
+            <div class="">
+                <figure>
+                    <img src="./assets/money.png" alt="">
+                </figure>
+            </div>
+
+            <!-- Money Master Calculation -->
+            <div class="bg-pink-200 py-4 px-8">
+                <!-- Income -->
+                <div class="">
+                    <h3 class="text-2xl font-bold text-center p-4">Income</h3>
+                    <label class="text-center flex font-bold text-xl " for="input">Income <input class="ml-4 w-full" type="text"></label>
+                </div>
+
+                <!-- Expenses -->
+                <div class="">
+                    <form action="" class="space-y-4">
+                        <h3 class="text-2xl font-bold text-center p-4">Expenses</h3>
+                        <label class="text-center flex font-bold text-xl " for="input">Foods <input class="ml-4 w-full" type="text"></label>
+                        <label class="text-center flex font-bold text-xl " for="input">Rents <input class="ml-4 w-full" type="text"></label>
+                        <label class="text-center flex font-bold text-xl " for="input">Clothes <input class="ml-4 w-full" type="text"></label>
+                        <button class="btn mx-auto p-2 px-4 rounded-md bg-pink-500 flex font-bold text-xl">Calculate</button>
+                    </form>
+                    <h3 class="mt-6 text-xl font-bold text-center">Total Expense:</h3>
+                    <h3 class="text-xl font-bold text-center">Balance:</h3>
+                    <form action="" class="flex justify-between items-center">
+                        <h3 class="mr-4 text-xl font-bold">Save</h3>
+                        <label for="text-center flex font-bold text-xl ">
+                            <input type="text"> %
+                        </label>
+                        <button class="btn p-2 px-4 rounded-md bg-pink-500 flex font-bold text-xl">Save</button>
+                    </form>
+                    <h3 class="mt-6 text-xl font-bold text-center">Saving Amount:</h3>
+                    <h3 class="text-xl font-bold text-center">Remaining Balance:</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text-pink-600 font-bold text-xl p-2 text-center">All rights are reserved by Bhupoti Kumar Roy.</p>
+    </footer>
+
+    <!-- Scripts -->
+     <script src="./js/function.js"></script>
+     <script src="./js/index.js"></script>
+</body>
+</html>
